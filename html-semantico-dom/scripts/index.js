@@ -5,7 +5,9 @@ const listaElemento = document.querySelector('.list')
 
 const listaInteresses = []
 
-
+/**
+ * @param {Event} event
+ */
 function marcarElemento(event) {
     event.target.style.textDecoration = "line-through"
 }
