@@ -97,6 +97,9 @@ ul.list {
     padding: 1rem;
     background: #d6dcfa;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
 
 .list li.riscado {
